@@ -39,10 +39,9 @@ export default function TeamPage() {
   return (
     <Protect
     condition={(has) => {
-      // Check if user has any of the paid plans
-      // return has({ plan: "starter" }) || has({ plan: "hobby" }) || has({ plan: "pro" })
-      // Or alternatively, check if user doesn't have free plan (if free plan exists)
-      return !has({ plan: "free_user" })
+      // Temporarily allow access for all users
+      // TODO: Implement proper plan checking when Clerk supports it
+      return true
     }}
       fallback={<UpgradeCard/>}
     >
