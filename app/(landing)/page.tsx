@@ -5,6 +5,7 @@ import CallToAction from "./call-to-action";
 import FAQs from "./faqs";
 import Footer from "./footer";
 import CustomClerkPricing from "@/components/custom-clerk-pricing";
+import ChatBar from "@/components/assistant/chat-bar";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
       <CallToAction />
       <FAQs />
       <Footer />
+
+      <ChatBar />
     </div>
   );
 }

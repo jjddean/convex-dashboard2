@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster as SonnerToaster } from "sonner";
 
 import { ClerkProvider } from '@clerk/nextjs'
 import ConvexClientProvider from '@/components/ConvexClientProvider'
@@ -43,6 +44,18 @@ export default function RootLayout({
               {children}
             </ConvexClientProvider>
           </ClerkProvider>
+          {/* Use Sonner directly to avoid wrapper recursion */}
+          <SonnerToaster
+            theme="system"
+            className="toaster group"
+            style={
+              {
+                "--normal-bg": "var(--popover)",
+                "--normal-text": "var(--popover-foreground)",
+                "--normal-border": "var(--border)",
+              } as React.CSSProperties
+            }
+          />
         </ThemeProvider>
       </body>
     </html>

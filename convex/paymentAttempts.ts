@@ -1,4 +1,4 @@
-import { internalMutation, QueryCtx } from "./_generated/server";
+import { internalMutation, query, QueryCtx } from "./_generated/server";
 import { v } from "convex/values";
 import { paymentAttemptDataValidator } from "./paymentAttemptTypes";
 
@@ -39,4 +39,20 @@ export const savePaymentAttempt = internalMutation({
     
     return null;
   },
-}); 
+});
+
+export const listMyPayments = query({
+  args: { },
+  handler: async (ctx) => {
+    const identity = await ctx.auth.getUserIdentity();
+    if (!identity) return [];
+    const user = await userByExternalId(ctx, identity.subject);
+    if (!user) return [];
+    const payments = await ctx.db
+      .query("paymentAttempts")
+      .withIndex("byUserId", (q) => q.eq("userId", user._id))
+      .collect();
+    // newest first
+    return payments.sort((a, b) => b.created_at - a.created_at);
+  }
+});

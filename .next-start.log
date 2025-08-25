@@ -1,0 +1,626 @@
+   ▲ Next.js 15.3.5
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.14:3000
+
+ ✓ Starting...
+ ✓ Ready in 973ms
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+Instant quote+booking API error: Error: [Request ID: 3291196d8d242953] Server Error
+Uncaught Error: Failed to insert or update a document in table "quotes" because it does not match the schema: Value does not match validator.
+Path: .userId
+Value: null
+Validator: v.id("users")
+    at async handler (../convex/quotes.ts:112:9)
+
+    at async handler (../convex/quotes.ts:112:9)
+    at S.mutationInner (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\4921.js:2:17064)
+    at async S.processMutationQueue (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\4921.js:2:17345)
+Instant quote+booking API error: Error: [Request ID: fdcecbb6d09bc84c] Server Error
+Uncaught Error: Failed to insert or update a document in table "quotes" because it does not match the schema: Value does not match validator.
+Path: .userId
+Value: null
+Validator: v.id("users")
+    at async handler (../convex/quotes.ts:112:9)
+
+    at async handler (../convex/quotes.ts:112:9)
+    at S.mutationInner (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\4921.js:2:17064)
+    at async S.processMutationQueue (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\4921.js:2:17345)
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999139089}}
+USER ROUTE CHECK: {
+  path: '/user/shipments',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/[object%20Object]',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999187643}}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999258061}}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999330236}}
+USER ROUTE CHECK: {
+  path: '/user/quotes',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/shipments',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/[object%20Object]',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999418235}}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999452242}}
+USER ROUTE CHECK: {
+  path: '/user/bookings',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/[object%20Object]',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999502472}}
+USER ROUTE CHECK: {
+  path: '/user/[object%20Object]',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999507458}}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999530761}}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+REDIRECTING TO ADMIN DASHBOARD - user is admin
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+REDIRECTING TO ADMIN DASHBOARD - user is admin
+ADMIN ROUTE CHECK: {
+  role: 'admin',
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: { role: 'admin' }
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1755999985279}}
+USER ROUTE CHECK: {
+  path: '/user/accounts',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/accounts',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/documents',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/compliance',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/documents',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/accounts',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/documents',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/payments',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/compliance',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/reports',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/compliance',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1756000201867}}
+ReachShip failed, falling back to mock rates: Error: [Request ID: 95c78091abc1b1b9] Server Error
+ArgumentValidationError: Object is missing the required field `cargoType`. Consider wrapping the field validator in `v.optional(...)` if this is expected.
+Path: .request
+Object: {additionalServices: [], destination: {city: "New York", country: "US"}, origin: {city: "Los Angeles", country: "US"}}
+Validator: v.object({additionalServices: v.array(v.string()), cargoType: v.string(), contactInfo: v.object({company: v.string(), email: v.string(), name: v.string(), phone: v.string()}), destination: v.string(), dimensions: v.object({height: v.string(), length: v.string(), width: v.string()}), incoterms: v.string(), origin: v.string(), serviceType: v.string(), urgency: v.string(), value: v.string(), weight: v.string()})
+
+
+    at S.mutationInner (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\4921.js:2:17064)
+    at async S.processMutationQueue (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\4921.js:2:17345)
+Quote API error: Error: [Request ID: 96173f8f8b921cec] Server Error
+ArgumentValidationError: Value does not match validator.
+Path: .request.destination
+Value: {city: "New York", country: "US"}
+Validator: v.string()
+
+
+    at S.mutationInner (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\4921.js:2:17064)
+    at async S.processMutationQueue (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\4921.js:2:17345)
+Quote API error: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at async m (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\app\api\quotes\route.js:1:1575)
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ ⨯ ReferenceError: window is not defined
+    at <unknown> (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\2547.js:1:9510)
+    at 97638 (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\2547.js:1:156020)
+    at t (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\webpack-runtime.js:1:128)
+    at 47594 (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\2547.js:1:4231)
+    at t (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\webpack-runtime.js:1:128)
+    at 64673 (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\chunks\6772.js:1:5676)
+    at t (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\webpack-runtime.js:1:128)
+    at 50789 (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\app\user\page.js:1:2475)
+    at Object.t [as require] (C:\Users\jason\New folder (6)\convex-dashboard\.next\server\webpack-runtime.js:1:128) {
+  digest: '1790502828'
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1756050329604}}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1756050435040}}
+USER ROUTE CHECK: {
+  path: '/user/quotes',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/shipments',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/[object%20Object]',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/bookings',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1756050442502}}
+USER ROUTE CHECK: {
+  path: '/user/[object%20Object]',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1756050445511}}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1756050448048}}
+USER ROUTE CHECK: {
+  path: '/user/compliance',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/payments',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/compliance',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1756050457480}}
+USER ROUTE CHECK: {
+  path: '/user/quotes',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1756050473268}}
+USER ROUTE CHECK: {
+  path: '/user/accounts',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/reports',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+USER ROUTE CHECK: {
+  path: '/user/compliance',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
+ORS route error: Directions failed: {"error":{"code":2004,"message":"Request parameters exceed the server configuration limits. The approximated route distance must not be greater than 6000000.0 meters."},"info":{"engine":{"build_date":"2025-06-06T15:39:25Z","graph_version":"2","graph_date":"2025-08-17T11:38:17Z","osm_date":"2025-08-10T23:59:57Z","version":"9.3.0"},"timestamp":1756050651807}}
+USER ROUTE CHECK: {
+  path: '/user',
+  role: undefined,
+  allowlist: [ 'jkdproductivity@gmail.com' ],
+  emails: [],
+  isAllowlistedAdmin: false,
+  publicMetadata: undefined,
+  metadata: {}
+}
