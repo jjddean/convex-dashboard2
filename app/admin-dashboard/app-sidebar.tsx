@@ -7,9 +7,9 @@ import {
   IconDashboard,
   IconDatabase,
   IconMessageCircle,
-  IconFileAi,
+  IconFile,
   IconFileDescription,
-  IconFileWord,
+  IconFileText,
   IconFolder,
   IconHelp,
   IconInnerShadowTop,
@@ -127,7 +127,7 @@ const data = {
     {
       name: "Word Assistant",
       url: "#",
-      icon: IconFileWord,
+      icon: IconFileText,
     },
   ],
   // tools removed
