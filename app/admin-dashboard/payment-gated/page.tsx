@@ -1,4 +1,5 @@
 import { Protect } from '@clerk/nextjs'
+import { useUser } from '@clerk/nextjs'
 import CustomClerkPricing from "@/components/custom-clerk-pricing";
 
 function UpgradeCard() {
@@ -14,7 +15,6 @@ function UpgradeCard() {
     </>
   )
 }
-
 
 function FeaturesCard() {
   return (
@@ -34,18 +34,25 @@ function FeaturesCard() {
     )
 }
 
+function ProtectedContent() {
+  const { user, isLoaded } = useUser()
+  
+  if (!isLoaded) {
+    return <div>Loading...</div>
+  }
+  
+  // Check if user has paid subscription (not free plan)
+  // Clerk Billing stores plan info in publicMetadata
+  const userPlan = user?.publicMetadata?.plan
+  const hasPaidSubscription = userPlan && userPlan !== 'free'
+  
+  if (!hasPaidSubscription) {
+    return <UpgradeCard />
+  }
+  
+  return <FeaturesCard />
+}
 
 export default function TeamPage() {
-  return (
-    <Protect
-    condition={(has) => {
-      // Temporarily allow access for all users
-      // TODO: Implement proper plan checking when Clerk supports it
-      return true
-    }}
-      fallback={<UpgradeCard/>}
-    >
-      <FeaturesCard />
-    </Protect>
-  )
+  return <ProtectedContent />
 } 
