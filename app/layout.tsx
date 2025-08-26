@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { GeistSans, GeistMono } from "geist/font";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster as SonnerToaster } from "sonner";
@@ -7,15 +7,9 @@ import { Toaster as SonnerToaster } from "sonner";
 import { ClerkProvider } from '@clerk/nextjs'
 import ConvexClientProvider from '@/components/ConvexClientProvider'
 
-
-const geistSans = GeistSans({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
-});
-
-const geistMono = GeistMono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: "--font-sans",
 });
 
 export const metadata: Metadata = {
@@ -31,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overscroll-none`}
+        className={`${inter.variable} antialiased overscroll-none`}
       >
         <ThemeProvider
           attribute="class"
